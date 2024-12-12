@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    height: 700px;
+  }
+  
+  body {
+    color: #333;
+    background-color: #f8f9fa;
+    height: 600px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0078ff;
+    color: white;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #ffce00;
+  }
+  
+  .nav-buttons .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .nav-buttons .login-btn {
+    background: #ffffff;
+    color: #0078ff;
+    border: 2px solid #ffffff;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+  }
+  
+  .nav-buttons .signup-btn {
+    background: #ffce00;
+    color: #0078ff;
+    border: 2px solid #ffce00;
+    transition: 0.3s;
+  }
+  
+  .nav-buttons .login-btn:hover {
+    background: transparent;
+    color: white;
+  }
+  
+  .nav-buttons .signup-btn:hover {
+    background: #0078ff;
+    color: white;
+    border-color: white;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 8rem 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons .btn {
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  .hero-login-btn {
+    background: #ffffff;
+    color: #0078ff;
+  }
+  
+  .hero-signup-btn {
+    background: #ffce00;
+    color: #0078ff;
+  }
+  
+  .hero-buttons .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* About Section */
+  .about-section {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+  }

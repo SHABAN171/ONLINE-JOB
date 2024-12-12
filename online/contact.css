@@ -1,0 +1,65 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .contact-header {
+    background: #0078ff;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Info Section */
+  .contact-info {
+    padding: 2rem 1rem;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  
+  .info-box {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #0078ff;
+  }
+  
+  .info-box p {
+    font-size: 1rem;
+    color: #555;
+  }
